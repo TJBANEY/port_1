@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="calebapp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="../node_modules/angular/angular.min.js" charset="utf-8"></script>
+    <script src="../js/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container-fluid" ng-controller="sidebar">
+      <div class="row">
+        <div class="col-xs-12 text-center" style="height: 40px;">
+          HEADER
+        </div>
+        <div class="col-xs-3" style="height: 100vh; background: lightblue; padding: 15px;">
+          <p>
+            <a href="#">{{ link1 }}</a>
+          </p>
+          <p>
+            <a href="#">{{ link2 }}</a>
+          </p>
+          <p>
+            <a href="#">{{ link3 }}</a>
+          </p>
+        </div>
+        <div class="col-xs-9" style="height: 100vh; background: orange; padding: 15px;">
+          Body
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
